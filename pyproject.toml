@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "lang-sam"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.0.1"
+huggingface-hub = "^0.17.3"
+numpy = "^1.26.0"
+opencv-python = "^4.8.1.78"
+Pillow = "^9.5.0"
+transformers = "^4.34.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
